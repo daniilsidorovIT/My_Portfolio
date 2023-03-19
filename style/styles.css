@@ -1,0 +1,737 @@
+html {
+    scroll-behavior: smooth;
+    background-color: black;
+
+}
+
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    min-width: 1400px;
+    width: 100%;
+}
+
+.site {
+    min-width: 1400px;
+margin:  auto;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.basik {
+   
+    background-image: url(../resourse/Developer.png);
+    width: 1400px;
+    height: 765px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+.nav_section{
+    padding-top: 33px;
+    margin-right: 124px;
+   
+}
+
+.nav_section a{
+    margin-right: 50px;
+}
+
+.nav_section a:last-child{
+    margin-left: 0;
+}
+
+.nav_section :hover {
+    color:#1BFF07;
+}
+
+
+.logo_link {
+    
+    margin-left: 123px;
+    margin-top: 36px;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42.4138px;
+    line-height: 55px;
+    letter-spacing: -0.11em;
+    text-transform: uppercase;
+    text-decoration: none;
+    height: 53px;
+    width: 153px;
+    border-radius: 100px;
+    border: 5px solid black;
+    background-color: #000000;
+    color: #1BFF07;
+}
+
+
+
+.navigation {
+    
+    display: inline;
+    float: right;
+    top: 33px;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 55px;
+    letter-spacing: -0.03em;
+    text-transform: none;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.development {
+    position: absolute;
+    width: 430px;
+    height: 103px;
+    left: 125px;
+    top: 334px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+
+}
+
+
+.hello {
+    margin-top: 466px;
+    margin-left: 119px;
+    margin-bottom: 94px;
+    margin-right: 362px;
+    width: 919px;
+    height: 205px;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 70px;
+    /* or 88% */
+
+    letter-spacing: -0.03em;
+
+    color: #1BFF07;
+}
+
+
+.recent {
+    height: 72px;
+    width: 1048px;
+    margin-left: 120px;
+    margin-top: 150px;
+    border-radius: nullpx;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.discovery {
+    background-image: url(../resourse/Discover.png);
+    position: absolute;
+    width: 1150px;
+    height: 550px;
+    left: 125px;
+    top: 1027px;
+
+}
+
+.discovery h2 {
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+
+}
+
+.discovery p {
+    position: absolute;
+    margin-top: 461px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.glass {
+    background-image: url(../resourse/Glass.png);
+    position: absolute;
+    width: 1150px;
+    height: 550px;
+    left: 125px;
+    top: 1577px;
+}
+
+.glass h2 {
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.glass p {
+    position: absolute;
+    margin-top: 461px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.fesiyen {
+    background-image: url(../resourse/Fesiyen.png);
+    position: absolute;
+    width: 1150px;
+    height: 550px;
+    left: 125px;
+    top: 2127px;
+}
+
+.fesiyen h2 {
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+
+}
+
+.fesiyen p {
+    position: absolute;
+    margin-top: 461px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+
+}
+
+.btn {
+    position: absolute;
+    width: 582px;
+    height: 153px;
+    left: 123px;
+    top: 2757px;
+    padding-left: 86px;
+    padding-top: 56px;
+    padding-bottom: 58px;
+    padding-right: 85px;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    background: #1BFF07;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: black;
+    color: #1BFF07;
+    border: 1px solid #1BFF07;
+}
+
+.competence h2 {
+    position: absolute;
+    height: 72px;
+    width: 1048px;
+    left: 123px;
+    top: 3060px;
+    margin-bottom: 48px;
+    border-radius: nullpx;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.skill {
+
+    height: 46px;
+    width: 1048px;
+    left: 123px;
+    top: 3236px;
+
+    border-radius: undefinedpx;
+    position: absolute;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #1BFF07;
+
+}
+
+.skill::before {
+    content: '';
+    display: block;
+    margin-bottom: 12px;
+    width: 24px;
+    height: 22.15px;
+    background-image: url(../resourse/html.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.explanation {
+    position: absolute;
+    height: 116px;
+    width: 778px;
+    left: 123px;
+    top: 3297px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.js {
+    height: 46px;
+    width: 1048px;
+    left: 123px;
+    top: 3533px;
+    border-radius: undefinedpx;
+    position: absolute;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #1BFF07;
+}
+
+.js::before {
+    content: '';
+    display: block;
+    margin-bottom: 12px;
+    width: 24px;
+    height: 22.15px;
+    background-image: url(../resourse/js.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.js_explanation {
+    position: absolute;
+    height: 116px;
+    width: 778px;
+    left: 123px;
+    top: 3594px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.library {
+    height: 46px;
+    width: 1048px;
+    left: 123px;
+    top: 3859px;
+    border-radius: undefinedpx;
+    position: absolute;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #1BFF07;
+
+}
+
+.library::before {
+    content: '';
+    display: block;
+    margin-bottom: 12px;
+    width: 24px;
+    height: 22.15px;
+    background-image: url(../resourse/library.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.library_explanation {
+    position: absolute;
+    height: 116px;
+    width: 778px;
+    left: 123px;
+    top: 3920px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.mobile {
+    height: 46px;
+    width: 1048px;
+    left: 123px;
+    top: 4185px;
+    border-radius: undefinedpx;
+    position: absolute;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #1BFF07;
+}
+
+.mobile::before {
+    content: '';
+    display: block;
+    margin-bottom: 12px;
+    width: 24px;
+    height: 22.15px;
+    background-image: url(../resourse/mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mobile_explanation {
+    position: absolute;
+    height: 116px;
+    width: 778px;
+    left: 123px;
+    top: 4292px;
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.help {
+    position: absolute;
+    height: 92px;
+    width: 403px;
+    left: 125px;
+    top: 4587px;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+
+}
+
+
+.control {
+    height: 200px;
+    width: 1150px;
+    left: 125px;
+    top: 4753px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.ark {
+    position: absolute;
+    background-image: url(../resourse/back.png);
+    height: 283px;
+    width: 1150px;
+    left: 125px;
+    top: 4953px;
+    border-radius: 30px;
+
+}
+
+.working {
+    height: 72px;
+    width: 1048px;
+    left: 40px;
+    top: 40px;
+    border-radius: nullpx;
+    position: absolute;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    color: #1BFF07;
+
+}
+
+.working_description {
+    position: absolute;
+    width: 749px;
+    height: 116px;
+    left: 40px;
+    top: 127px;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+
+}
+
+.moment {
+    height: 200px;
+    width: 1150px;
+    left: 125px;
+    top: 5310px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.frame {
+    position: absolute;
+    background-image: url(../resourse/back.png);
+    height: 283px;
+    width: 1150px;
+    left: 125px;
+    top: 5510px;
+    border-radius: 30px;
+}
+
+.layout {
+    height: 72px;
+    width: 1048px;
+    left: 40px;
+    top: 40px;
+    border-radius: nullpx;
+    position: absolute;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    color: #1BFF07;
+}
+
+.layout_description {
+    position: absolute;
+    width: 749px;
+    height: 116px;
+    left: 40px;
+    top: 127px;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.code {
+    height: 200px;
+    width: 1150px;
+    left: 125px;
+    top: 5930px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.cadre {
+    position: absolute;
+    background-image: url(../resourse/back.png);
+    height: 283px;
+    width: 1150px;
+    left: 125px;
+    top: 6130px;
+    border-radius: 30px;
+}
+
+.interface {
+    height: 72px;
+    width: 1048px;
+    left: 40px;
+    top: 40px;
+    border-radius: nullpx;
+    position: absolute;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    color: #1BFF07;
+}
+
+.interface_description {
+    position: absolute;
+    width: 749px;
+    height: 116px;
+    left: 40px;
+    top: 127px;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+
+}
+
+.connection {
+    position: absolute;
+    width: 1400px;
+    height: 717px;
+    left: 0px;
+    top: 6563px;
+    background: #191C19;
+    border-radius: 30px;
+}
+
+.programmer {
+    position: absolute;
+    width: 915px;
+    height: 717px;
+    left: 483px;
+
+}
+
+.relations {
+    position: absolute;
+    width: 201px;
+    height: 60px;
+    left: 125px;
+    top: 320px;
+    font-size: 35px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.inst {
+    position: absolute;
+    width: 310px;
+    height: 60px;
+    left: 125px;
+    top: 408px;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.tg {
+
+    position: absolute;
+    width: 276px;
+    height: 60px;
+    left: 125px;
+    top: 488px;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.mail {
+    position: absolute;
+    width: 139px;
+    height: 60px;
+    left: 125px;
+    top: 568px;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.mail:hover {
+    color: #1BFF07;
+}
+
+.tg:hover {
+    color: #1BFF07;
+}
+
+.inst:hover {
+    color: #1BFF07;
+}
+
+.rights {
+    position: absolute;
+    width: 1400px;
+    height: 289px;
+    left: calc(50% - 1400px/2);
+    bottom: -66px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    top: 7430px;
+
+
+}
+
+.last_content {
+    position: absolute;
+    width: 512px;
+    height: 30px;
+    left: calc(50% - 512px/2 - 319px);
+    bottom: 117px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+
+.guard {
+    position: absolute;
+    width: 241px;
+    height: 27px;
+    left: calc(50% - 241px/2 - 454.5px);
+    bottom: 24px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+
+    color: #000000;
+
+    opacity: 0.5;
+}
